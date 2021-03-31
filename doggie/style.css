@@ -2,7 +2,7 @@ body {
     background-image: url('img/Background.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 95vh;
+    height: 100vh;
 }
 .navbar-toggler {
     margin-right: -75px!important;
@@ -155,7 +155,14 @@ body {
     margin-left: 30px;
     border: 1px solid rgba(85, 64, 69, 1);
     color: rgba(85, 64, 69, 1);
+    transition: 0.3s;
 }
+.btn-group-empty:hover
+{
+    color: white;
+    background-color: rgba(85, 64, 69, 1);
+}
+
 .social-ions a {
     margin: 10px;
 }
@@ -174,18 +181,40 @@ body {
     font-size: 18px;
 }
 .btn-bave-assets-row {
-    margin-top: 120px;
+    margin-top: 100px;
+}
+@media(min-height: 1200px) {
+    .btn-bave-assets-row {
+        margin-top: 35%;
+    }  
+}
+@media(min-height: 2200px) {
+    .btn-bave-assets-row {
+        margin-top: 60%!important;
+    }  
+}
+@media(min-height: 1500px) {
+    .btn-bave-assets-row {
+        margin-top: 45%;
+    }  
 }
 .header-row {
     margin-top: 30px;
 }
-    .underheader-text-row, .buttons-group, .social-ions {
-        margin-top: 30px;
-    }
+.underheader-text-row, .buttons-group, .social-ions {
+    margin-top: 30px;
+}
 .row-footer-fluid {
     position: absolute;
     bottom: 0;
     z-index: 10;
+}
+@media(max-height: 739px) {
+    .row-footer-fluid {
+        position: relative;
+        bottom: 0;
+        z-index: 10;
+    }   
 }
 .footer-dog {
     display: none;
@@ -208,12 +237,12 @@ body {
 }
 
 @media(max-width: 768px) {
-    body {
+    /* body {
         background-image: url('img/Background.svg');
         background-repeat: no-repeat;
         background-size: cover;
         min-height: 95vh;
-    }
+    } */
     .footer-none {
         display: none;
     }
@@ -438,6 +467,14 @@ body {
         width: 90%;
     }
 }
+@media(max-width: 1700px) {
+    .block__parent {
+        width: 85%;
+    }
+    .full-dog {
+        width: 85%;
+    }
+}
 @media(max-width: 1500px) {
     .block__parent {
         width: 80%;
@@ -551,6 +588,12 @@ body {
     border: none;
     cursor: pointer;
     position: relative;
+    transition: 0.3s;
+}
+.btn-1:hover
+{
+    animation: none;
+    background-color: #AC2045;
 }
 .btn-1:focus {
     outline: none;

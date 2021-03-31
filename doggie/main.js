@@ -30,5 +30,5 @@ window.onload = function() {
     document.getElementById("cloud-dog").style.opacity = 1;
     document.getElementById("cloud-dog").style.height = '70%';
     document.getElementById("cloud-dog").style.top = '-40%';
-    document.getElementById("cloud-dog").style.animation = 'cloud ease 2s infinite alternate';
+    document.getElementById("cloud-dog").style.animation = 'cloud ease 3s infinite alternate';
 }
