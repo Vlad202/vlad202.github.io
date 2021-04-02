@@ -11,111 +11,114 @@
   </head>
   <body>
     <main>
-        <div class="main container">
-            <nav id="navbar1" class="navbar navbar-expand-md">
-                <div class="navbar-brand" href="#">
-                    <img src="img/Dog.svg" alt="">
-                    <span>Bave</span>
-                </div>
-                <ul class="burger-ul navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
-                    <li></li>
-                    <li></li>
-                    <li></li>
+    <div class="container">
+        <nav id="navbar1" class="navbar navbar-expand-md">
+            <div class="navbar-brand d-flex" href="#">
+                <img src="img/Dog.svg" alt="">
+                <span>Bave</span>
+            </div>
+            <ul class="burger-ul navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                <ul class="nav-items nav navbar-nav ml-auto d-flex align-items-center">
+                    <li class="nav-item"><a>Docs</a></li>
+                    <li class="nav-item"><a>Forecasts</a></li>
+                    <li class="nav-item">
+                        <a href="#" class="btn-top">
+                            <svg width="220" height="60">
+                              <defs>
+                                  <linearGradient id="grad1">
+                                      <stop offset="0%" stop-color="#AC2146"/>
+                                      <stop offset="100%" stop-color="#D39A69" />
+                                  </linearGradient>
+                              </defs>
+                               <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="210" height="50"></rect>
+                            </svg>
+                              <span>Enter App</span>
+                        </a>
+                    </li>
                 </ul>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-                    <ul class="nav-items nav navbar-nav ml-auto">
-                        <li class="nav-item"><a>Docs</a></li>
-                        <li class="nav-item"><a>Forecasts</a></li>
-                        <li class="nav-item">
-                            <a href="#" class="btn-top">
-                                <svg width="220" height="60">
-                                  <defs>
-                                      <linearGradient id="grad1">
-                                          <stop offset="0%" stop-color="#AC2146"/>
-                                          <stop offset="100%" stop-color="#D39A69" />
-                                      </linearGradient>
-                                  </defs>
-                                   <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="210" height="50"></rect>
-                                </svg>
-                                  <span>Enter App</span>
-                            </a>
-                        </li>
-                    </ul>
+            </div>
+        </nav>
+    </div>
+        <div class="main container">
+            <!-- <div class="content"> -->
+                <div class="row btn-bave-assets-row">
+                    <div class="btn-bave-assets d-flex justify-content-center align-items-center btn-bave-assets-left"><span>1 bave = $14.79</span></div>
+                    <a href="#" class="btn-bave-assets btn-bave-assets-right"><span>View more assets <img class="arrow" src="img/arrow.svg"></img></span></a>
                 </div>
-            </nav>
-            <div class="row btn-bave-assets-row">
-                <div class="btn-bave-assets btn-bave-assets-left"><span>1 bave = $14.79</span></div>
-                <a href="#" class="btn-bave-assets btn-bave-assets-right"><span>View more assets <img class="arrow" src="img/arrow.svg"></img></span></a>
+                <div class="row header-row">
+                    <h1 class="main-header">
+                        Bave - the most<br> accurate forecasts
+                    </h1>
+                </div>
+                <div class="row underheader-text-row">
+                    <p class="underheader-text">get the most accurate information about trading pairs, our analysts update data faster than any other</p>
+                </div>
+                <div class="row buttons-group">
+                    <button class="btn-1"><img class="lapa-btn" src="img/lapa.svg" alt="lapa"><span>Enter App</span></button>
+                    <button class="btn-group d-flex justify-content-center align-items-center btn-group-empty"><span>Learn More</span></button>
+                </div>
+                <div class="row social-ions">
+                    <a href="">
+                        <img src="img/discord.svg" alt="" class="social-icon">
+                    </a>
+                    <a href="">
+                        <img src="img/telegram.svg" alt="" class="social-icon">
+                    </a>
+                    <a href="">
+                        <img src="img/twitter.svg" alt="" class="social-icon">
+                    </a>
+                    <a href="">
+                        <img src="img/m.svg" alt="" class="social-icon">
+                    </a>
+                    <a href="">
+                        <img src="img/github.svg" alt="" class="social-icon">
+                    </a>
+                </div>
+            <!-- </div> -->
+        </div>
+        <div class="container-dog">
+            <div class="block__parent">
+                <div class="block block-2 btc-coin coin-1"></div>
+                <div class="block block-2 btc-coin coin-2"></div>
+                <div class="block block-2 eth-coin coin-3"></div>
+                <div class="block block-2 eth-coin coin-4"></div>
+                <div class="block block-2 eth-coin coin-5"></div>
+                <div class="block block-2 ltc-coin coin-6"></div>
+                <div class="block block-2 ltc-coin coin-7"></div>
             </div>
-            <div class="row header-row">
-                <h1 class="main-header">
-                    Bave - the most<br> accurate forecasts
-                </h1>
-            </div>
-            <div class="row underheader-text-row">
-                <p class="underheader-text">get the most accurate information about trading pairs, our analysts update data faster than any other</p>
-            </div>
-            <div class="row buttons-group">
-                <button class="btn-1"><img class="lapa-btn" src="img/lapa.svg" alt="lapa"><span>Enter App</span></button>
-                <button class="btn-group btn-group-empty"><span>Learn More</span></button>
-            </div>
-            <div class="row social-ions">
-                <a href="">
-                    <img src="img/discord.svg" alt="" class="social-icon">
-                </a>
-                <a href="">
-                    <img src="img/telegram.svg" alt="" class="social-icon">
-                </a>
-                <a href="">
-                    <img src="img/twitter.svg" alt="" class="social-icon">
-                </a>
-                <a href="">
-                    <img src="img/m.svg" alt="" class="social-icon">
-                </a>
-                <a href="">
-                    <img src="img/github.svg" alt="" class="social-icon">
-                </a>
+            <img class="full-dog" src="img/full-dog.svg" alt="full-dog">
+            <img class="cloud-dog" id="cloud-dog" src="img/cloud.svg" alt="cloud-dog">
+            <div class="container-bottom-coins">
+                <div class="b-coin-1 b-coin"></div>
+                <div class="b-coin-2 b-coin"></div>
+                <div class="b-coin-3 b-coin"></div>
+                <div class="b-coin-4 b-coin"></div>
             </div>
         </div>
     </main>
-    <div class="container-dog">
-        <div class="block__parent">
-            <div class="block block-2 btc-coin coin-1"></div>
-            <div class="block block-2 btc-coin coin-2"></div>
-            <div class="block block-2 eth-coin coin-3"></div>
-            <div class="block block-2 eth-coin coin-4"></div>
-            <div class="block block-2 eth-coin coin-5"></div>
-            <div class="block block-2 ltc-coin coin-6"></div>
-            <div class="block block-2 ltc-coin coin-7"></div>
-        </div>
-        <img class="full-dog" src="img/full-dog.svg" alt="full-dog">
-        <img class="cloud-dog" id="cloud-dog" src="img/cloud.svg" alt="cloud-dog">
-        <div class="container-bottom-coins">
-            <div class="b-coin-1 b-coin"></div>
-            <div class="b-coin-2 b-coin"></div>
-            <div class="b-coin-3 b-coin"></div>
-            <div class="b-coin-4 b-coin"></div>
-        </div>
-    </div>
     <div class="container-fluid row-footer-fluid">
-        <div class="container footer-dog">
+        <div class="container footer-dog d-none">
             <div class="row d-flex justify-content-center">
                 <img src="img/footer-dog.svg" alt="footer-dog">
             </div>
         </div>
         <div class="row row-footer">
             <div class="container">
-                <div class="row footer-inner">
+                <div class="row footer-inner d-flex justify-content-between align-items-center">
                     <div><span>Bave: $14.79</span></div>
                     <div><span>Liquidity: 4.13b</span></div>
-                    <div class="footer-none"><span>Total volume: 42.95b</span></div>
-                    <div class="footer-none"><span>Total fees: 128 846 283</span></div>
-                    <div class="footer-none"><span>Pairs: 879</span></div>
+                    <div class="d-md-block d-none"><span>Total volume: 42.95b</span></div>
+                    <div class="d-md-block d-none"><span>Total fees: 128 846 283</span></div>
+                    <div class="d-md-block d-none"><span>Pairs: 879</span></div>
                 </div>
             </div>
         </div>
     </div>
-
     <!-- <script src="bootstrap/js/bootstrap.js"></script> -->
     <script src="bootstrap/js/jquery.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
